@@ -1,0 +1,153 @@
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 1.5em;
+}
+h1
+{
+    line-height: 2;
+    margin: 0;
+    font-size: 4.625rem;
+    font-family: 'Poppins',Arial, sans-serif;
+}
+h2
+{
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 25px;
+    font-family: 'Poppins',Arial, sans-serif;
+    font-size: 2rem;
+}
+h3
+{
+    font-weight: bold;
+    font-family: 'Poppins',Arial ,sans-serif;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 7%;
+    border-color: black;
+}
+a{
+    color: black;
+    margin: 20px 15px;
+    text-decoration: none;
+}
+a:hover{
+    color:firebrick;
+}
+.profile
+{
+    width: 50%;
+    margin: 50px auto 50px auto;
+}
+.boy-image
+{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 20px;
+}
+.skill-image
+{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    bottom: 20px;
+}
+.skill-h2
+{
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contact-h2
+{
+    padding-bottom: 0px;
+}
+.skill-row
+{
+    width: 60%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    font-size: 1.3rem;
+}
+.skill-row-2
+{
+    width: 60%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 1.3rem;
+}
+.my-image
+{
+    height: 250px;
+    height: 250px;
+    border-radius: 70%;
+    padding-bottom: 20px;
+}
+.Gaming-image
+{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-left: 30px;
+    padding-top: 25px;
+}
+.Upper-box
+{
+    background-color: #FF6363;
+    position: relative;
+    padding-top: 100px;
+}
+.Middle-box
+{
+    background-color: #FF8585;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.bottom-box
+{
+    padding-top: 10px;
+    padding-bottom: 1px;
+    background-color: #FFB396;
+}
+.copyright
+{
+    font-size: 1rem;
+    padding: 5px 0;
+}
+.btn {
+    background: #FFB396;
+    background-image: -webkit-linear-gradient(top, #FFB396, #FFB396);
+    background-image: -moz-linear-gradient(top, #FFB396, #FFB396);
+    background-image: -ms-linear-gradient(top, #FFB396, #FFB396);
+    background-image: -o-linear-gradient(top, #FFB396, #FFB396);
+    background-image: linear-gradient(to bottom, #FFB396, #FFB396);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Poppins', Arial;
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background: #fa3c72;
+    background-image: -webkit-linear-gradient(top, #fa3c72, #d9349f);
+    background-image: -moz-linear-gradient(top, #fa3c72, #d9349f);
+    background-image: -ms-linear-gradient(top, #fa3c72, #d9349f);
+    background-image: -o-linear-gradient(top, #fa3c72, #d9349f);
+    background-image: linear-gradient(to bottom, #fa3c72, #d9349f);
+    text-decoration: none;
+  }
